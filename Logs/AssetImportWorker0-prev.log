@@ -1,0 +1,278 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ko' Physical Memory: 16240 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/Documents/Unity/Team15_test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65212
+Successfully changed project path to: C:/Users/user/Documents/Unity/Team15_test
+C:/Users/user/Documents/Unity/Team15_test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 114.67 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.79 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/Unity/Team15_test/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     8120 MB
+    Driver:   26.20.100.7324
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003610 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.07 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019756 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Unity\Team15_test\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.71.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.212 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1215ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2672 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.9 MB.
+System memory in use after: 193.1 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3108.
+Total: 3.320700 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.104700 ms MarkObjects: 2.846500 ms  DeleteObjects: 0.118400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Easy FPS/Prefabs/bulletHole.prefab
+  artifactKey: Guid(b2ac1383a96f94a50b7ed458be173bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Prefabs/bulletHole.prefab using Guid(b2ac1383a96f94a50b7ed458be173bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c7d713d634e94811f8eeeae06ba8a7') in 0.111170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.225542 seconds.
+  path: Assets/Easy FPS/Sounds/playerSound/hit_sound.wav
+  artifactKey: Guid(fb54d3718f2698f4a894c26225dc3e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Sounds/playerSound/hit_sound.wav using Guid(fb54d3718f2698f4a894c26225dc3e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb950f028c6cecd988ae284faadb50bc') in 0.093815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.513802 seconds.
+  path: Assets/Easy FPS/Sounds/playerSound/die_02.wav
+  artifactKey: Guid(682d11da94be903499903ad0057578b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Sounds/playerSound/die_02.wav using Guid(682d11da94be903499903ad0057578b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f678ef80020cc5505d72e18b76b9d99') in 0.012554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.276138 seconds.
+  path: Assets/Easy FPS/Sounds/playerSound/run_sound 1.wav
+  artifactKey: Guid(258857b6c358d0644a339892e0212203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Sounds/playerSound/run_sound 1.wav using Guid(258857b6c358d0644a339892e0212203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f54d0066b77cc0def6b8e2bc60fc200') in 0.013062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.339942 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Models/desktop.ini
+  artifactKey: Guid(60640f6bd3aa7e845aae32b07d803ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Models/desktop.ini using Guid(60640f6bd3aa7e845aae32b07d803ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded8cf103f310d03388f67a1c1be5ee') in 0.009281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.883967 seconds.
+  path: Assets/Easy FPS/Sounds/playerSound/walk_sound 1.wav
+  artifactKey: Guid(3519e1b49b777a34d8674238d3c71350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Sounds/playerSound/walk_sound 1.wav using Guid(3519e1b49b777a34d8674238d3c71350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a950a6448a9dc86303e3d0c70b89d3cf') in 0.015529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.837704 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_legacy/desktop.ini
+  artifactKey: Guid(a0254038ee9c2e241a6c2f99c424bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_legacy/desktop.ini using Guid(a0254038ee9c2e241a6c2f99c424bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a6160a2d0461c4e09b09d4cd7e3c14') in 0.004942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.733857 seconds.
+  path: Assets/Easy FPS/Sounds/playerSound/die-01.wav
+  artifactKey: Guid(eb3bd47854f520742b9701987981ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Sounds/playerSound/die-01.wav using Guid(eb3bd47854f520742b9701987981ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c4ebf6c674d26510275991efaacb1d') in 0.019565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.117913 seconds.
+  path: Assets/Easy FPS/Sounds/playerSound/freakin_zombies.wav
+  artifactKey: Guid(291e7aab756fc474cb1085be543bed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Sounds/playerSound/freakin_zombies.wav using Guid(291e7aab756fc474cb1085be543bed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c394b3d81b8720fc111b9feafcf7865') in 0.019192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.395237 seconds.
+  path: Assets/Animation/fire.anim
+  artifactKey: Guid(94d153d6749ad1b4ebf334130eff2ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/fire.anim using Guid(94d153d6749ad1b4ebf334130eff2ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b699aadf4b5db5a8648bfaf43855d4') in 0.013918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.686099 seconds.
+  path: Assets/Easy FPS/Sounds/playerSound
+  artifactKey: Guid(982b40fc23170d3438d35cebadf5e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Sounds/playerSound using Guid(982b40fc23170d3438d35cebadf5e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e19a5b052229f2215c74a7f32f328d3') in 0.006894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.465021 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Textures/desktop.ini
+  artifactKey: Guid(33668c3e93a943c43a00f291d614b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Textures/desktop.ini using Guid(33668c3e93a943c43a00f291d614b55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f2e1e8b4696014f628a8cb9f414319') in 0.006948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314946 seconds.
+  path: Assets/Scenes/Stage3_test.unity
+  artifactKey: Guid(dc3bb5bdc1052384c84c59d8a4f72253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage3_test.unity using Guid(dc3bb5bdc1052384c84c59d8a4f72253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb5dec99a3d4eb971576e50e3c35990') in 0.006991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.269048 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Prefab/desktop.ini
+  artifactKey: Guid(aaaaf014bc311ca458338aed04b3abf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Prefab/desktop.ini using Guid(aaaaf014bc311ca458338aed04b3abf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9173ccc84a807cf95e0d71feb8aa6a1') in 0.007148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049978 seconds.
+  path: Assets/Scripts/ControllerInput.cs
+  artifactKey: Guid(4a466501910ef614c8efbcb053b2b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControllerInput.cs using Guid(4a466501910ef614c8efbcb053b2b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ccbd251de17636789a296bd75e976e') in 0.014082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.698169 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Scene/desktop.ini
+  artifactKey: Guid(46061a54052652a4bb0d25da780835de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Scene/desktop.ini using Guid(46061a54052652a4bb0d25da780835de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e70c055d99e7a1688a2a430b20c731') in 0.007258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.952635 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_mecanim/space_man_controller.controller
+  artifactKey: Guid(3fddf5519a321ec4bb1315b9ec0a1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_mecanim/space_man_controller.controller using Guid(3fddf5519a321ec4bb1315b9ec0a1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a203f38f97031ac0f1b0c9758cd1814') in 0.029198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.168174 seconds.
+  path: Assets/Easy FPS/Sounds/playerSound/jump.wav
+  artifactKey: Guid(fb859d907317d2446a59ffdeb1807e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Sounds/playerSound/jump.wav using Guid(fb859d907317d2446a59ffdeb1807e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a3c22dd73256ac1fdcc27521e164a8') in 0.019905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.235803 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Materials/desktop.ini
+  artifactKey: Guid(427cd3df47c50f54a9fe123177e50de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Materials/desktop.ini using Guid(427cd3df47c50f54a9fe123177e50de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3597c593ae1082668c1dfe17550cefc8') in 0.007059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.581793 seconds.
+  path: Assets/Easy FPS/Images/Materials/bulllet_hole.mat
+  artifactKey: Guid(baf17cf72977f4721af5e2617d2f478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Images/Materials/bulllet_hole.mat using Guid(baf17cf72977f4721af5e2617d2f478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca40bdaa07142823f392a648ea1500a3') in 0.095540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.944754 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_mecanim/desktop.ini
+  artifactKey: Guid(6f703680d0aca1749b8fb100e5b96f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_mecanim/desktop.ini using Guid(6f703680d0aca1749b8fb100e5b96f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253ae51e7d46218546d5124804d66f1b') in 0.006237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.129346 seconds.
+  path: Assets/Animation/Gun.controller
+  artifactKey: Guid(566bc71128b7f3542bbf54baf432a26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Gun.controller using Guid(566bc71128b7f3542bbf54baf432a26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6bcf9d8398c4002e4b11daf5a58350') in 0.011014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.215102 seconds.
+  path: Assets/Easy FPS/Images/Materials
+  artifactKey: Guid(a9a73737e80c9ad4a8f55ab65fc9d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy FPS/Images/Materials using Guid(a9a73737e80c9ad4a8f55ab65fc9d841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebce167bed1b403a87bfe53d3f721b7f') in 0.005764 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
