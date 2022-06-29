@@ -34,6 +34,7 @@ developed by [임하영](https://github.com/annyeong-lang)
 간편한 클릭을 위해 virtual hand에 Laser pointer를 부착했습니다.  
 플레이어는 적은 움직임으로 원하는 스테이지를 선택해 이동할 수 있습니다.  
 ### Screen Shot  
+![mainmenu](https://user-images.githubusercontent.com/53906423/176417830-c7a62e52-4fec-4fcc-95ca-0b086583c581.jpg)
 
 ## Stage 1 
 developed by [김서현](https://github.com/kshyun0415)  
