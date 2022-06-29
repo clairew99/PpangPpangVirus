@@ -5,15 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class menuControl : MonoBehaviour
 {
-
    public void Startbn1()
    {
-       if(Input.GetButton("Fire1"))
-       {
-           SceneManager.LoadScene("character");
-       }
-       
-       //SceneManager.LoadScene("character");
+       SceneManager.LoadScene("Stage1");
    }
 
    public void Startbn2()
@@ -24,5 +18,9 @@ public class menuControl : MonoBehaviour
    public void Startbn3()
    {
        SceneManager.LoadScene("Stage3");
+   }
+   public void GotoStart()
+   {
+       SceneManager.LoadScene("main");
    }
 }

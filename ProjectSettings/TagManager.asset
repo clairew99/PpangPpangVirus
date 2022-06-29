@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Weapon
-  - BulletSpawn
   - LevelPart
+  - RoomLight
+  - Enemy
+  - Portal
+  - Gun
   layers:
   - Default
   - TransparentFX
@@ -14,14 +16,14 @@ TagManager:
   - 
   - Water
   - UI
+  - Hide
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PostProcessing
+  - Weapon
+  - Target
+  - Projectile
+  - Player
+  - PlayerCollisionOnly
   - 
   - 
   - 
