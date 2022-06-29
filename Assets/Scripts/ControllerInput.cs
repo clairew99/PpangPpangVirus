@@ -14,10 +14,13 @@ public class ControllerInput : MonoBehaviour
 
     private Transform tr;  //플레이어 트랜스폼
     private Rigidbody rb; //플레이어 리지드바디
-    public float force = 100.0f;
-    private bool isJumping;
-    private float dirX = 0;
-    private float dirZ = 0;
+    public float force = 200.0f;
+    public bool isJumping;
+    //private float dirX = 0;
+    //private float dirZ = 0;
+
+    float MovSpeed = 5f;
+    //CharacterController cc;
     
     
     // Start is called before the first frame update
@@ -26,6 +29,8 @@ public class ControllerInput : MonoBehaviour
         tr = GetComponent<Transform>();
         rb = GetComponent<Rigidbody>();
         isJumping = false;
+        //cc = GetComponent<CharacterController>();
+        force = 200.0f;
     }
 
     // Update is called once per frame
@@ -70,13 +75,23 @@ public class ControllerInput : MonoBehaviour
         //transform.position = transform.position + Camera.main.transform.forward * playerSpeed * Time.deltaTime;
         
 
-
+        
         if (OVRInput.Get(OVRInput.Touch.PrimaryThumbstick))
         {
             Vector2 coord = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
 
             var absX = Mathf.Abs(coord.x);
         }
+
+        /*
+        float xMove = Input.GetAxis("Horizontal");
+        float zMove = Input.GetAxis("Vertical");
+        Vector3 mov = new Vector3(-zMove, 0, xMove) * MovSpeed;
+        rb.velocity = mov;*/
+
+        //Vector2 mov2d = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
+        //Vector3 mov = new Vector3(mov2d.x * Time.deltaTime * MovSpeed, 0f, mov2d.y * Time.deltaTime * MovSpeed);
+        //cc.Move(mov);
     }
 
     void JumpPlayer()
@@ -86,7 +101,9 @@ public class ControllerInput : MonoBehaviour
             if(!isJumping)
             {
                 isJumping = true;
+                //rb.AddForce(new Vector3(0, 2.5f, 0) * force, ForceMode.Impulse);
                 rb.AddForce(new Vector3(0, 2.5f, 0) * force);
+                //rb.AddForce(Vector3.up * force, ForceMode.Impulse);
             }
             else
             {
@@ -99,9 +116,9 @@ public class ControllerInput : MonoBehaviour
     //바닥과 닿았는지 체크해서 중복 점프 방지
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.CompareTag("LevelPart"))
-    {
-        isJumping = false;
-    }
+        if(collision.gameObject.CompareTag("LevelPart"))
+        {
+            isJumping = false;
+        }
     }
 }
